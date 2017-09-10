@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My CV</string>
+    <string name="facebook_app_id">772785499549985</string>
+    <string name="fb_login_protocol_scheme">fb772785499549985</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cancel_login">The login was cancelled</string>
+    <string name="error_login">There was an error in the login</string>
+</resources>

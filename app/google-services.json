@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "845250459780",
+    "firebase_url": "https://mycv-fc043.firebaseio.com",
+    "project_id": "mycv-fc043",
+    "storage_bucket": "mycv-fc043.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845250459780:android:a37e4e5bc2dd83ee",
+        "android_client_info": {
+          "package_name": "com.abreusoft.mycv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845250459780-fr0kfg584pi8st6jrig12s2snhbjjohu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abreusoft.mycv",
+            "certificate_hash": "ba5405ee9674b32f69d28efd8f459f7dcb19a4d1"
+          }
+        },
+        {
+          "client_id": "845250459780-h7j7eu8oou61r9tj3kj60rlr5foi4gd5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCixQ_kl1EZAQeCkKdk-eDjf2gxyBt4GmE"
+        },
+        {
+          "current_key": "AIzaSyBt_Ksl25wecY9-a9dGRpTxhhUCB5I9bSs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845250459780-h7j7eu8oou61r9tj3kj60rlr5foi4gd5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

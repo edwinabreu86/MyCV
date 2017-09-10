@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/layout_margin"
+    tools:context="com.abreusoft.mycv.EditCVActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/profile_picture" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/text_margin"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/textView"
+                android:text="Datos generales" />
+
+            <EditText
+                android:id="@+id/full_name"
+                style="@style/editText"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Nombres y Apellidos" />
+
+            <EditText
+                android:id="@+id/email"
+                style="@style/editText"
+                android:hint="Email"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/phone"
+                style="@style/editText"
+                android:ems="10"
+                android:hint="Teléfono"
+                android:inputType="phone" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        style="@style/textView"
+        android:text="Ubicación" />
+
+    <EditText
+        android:id="@+id/address"
+        android:hint="Calle, no. casa, apartamento..."
+        style="@style/editText"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/city"
+        android:hint="Barrio, sector, ciudad..."
+        style="@style/editText"
+        android:ems="10" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:text="Provincia"
+            style="@style/textView" />
+
+        <Spinner
+            android:id="@+id/province"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <TextView
+        style="@style/textView"
+        android:text="Formación Académica" />
+
+    <EditText
+        android:id="@+id/bachelor"
+        style="@style/editText"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Bachillerato" />
+
+    <EditText
+        android:id="@+id/graduate"
+        style="@style/editText"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Grado" />
+
+    <EditText
+        android:id="@+id/post_graduate"
+        style="@style/editText"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Post-Grado" />
+
+    <Button
+        android:onClick="saveProfile"
+        android:id="@+id/saveProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar datos" />
+</LinearLayout>
